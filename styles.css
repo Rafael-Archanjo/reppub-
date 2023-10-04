@@ -110,6 +110,7 @@ html::-webkit-scrollbar-thumb{
 .content-left {
     flex: 0.7;
     margin-top: -30px;
+    margin-left: 200px;
 }
 
 .content-right {
