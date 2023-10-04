@@ -1,0 +1,333 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
+@import url(https://db.onlinewebfonts.com/c/381560810e4c36d16a07abb03254e264?family=JejuGothic);
+
+
+
+body, ul {
+    margin: 0;
+    padding: 0;
+    font-family: Roboto;
+}
+
+.background-area {
+    background-color: #121212;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: calc(50vh + 75px); 
+    z-index: -2;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    z-index: 2;
+    font-size: 13px;
+    color: rgb(255, 255, 255);
+    background-color: transparent;
+
+}
+
+html::-webkit-scrollbar{
+    width: .3rem;
+  }
+  
+html::-webkit-scrollbar-track{
+    background: #121212;
+}
+  
+html::-webkit-scrollbar-thumb{
+    background: #121212;
+    border-radius: 5rem;
+}
+
+.header {
+    background-color: #121212;
+    background-image: url('img/banner-fundo.png');
+    background-size: cover; 
+    background-position: center top ; 
+    height: calc(50vh + 165px); 
+    position: relative;
+    z-index: -1;
+}
+
+.logo img {
+    width: 150px;
+    margin-right: 220px;
+    margin-top: 10px;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.nav-links li {
+    margin: 0 10px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+.icons img {
+    width: 25px; 
+    margin-left: 10px;
+}
+
+.login {
+    padding: 5px 16px;
+    background-color: white;
+    border: 1px solid black;
+    color: black;
+    border-radius: 22px;
+    cursor: pointer;
+    margin-left: 10px;
+    font-weight: bold;
+}
+
+/* content */
+
+.content-section {
+    padding: 30px 0 20px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #121212;
+    color: white;
+}   
+
+.content-text {
+    margin-right: 370px;
+}
+
+.content-left {
+    flex: 0.7;
+    margin-top: -30px;
+}
+
+.content-right {
+    flex:1.3;
+    text-align: right;
+    font-size: 20px;
+    margin-top: -30px;
+    margin-right: 200px;
+
+}
+
+.reposicionar {
+    margin-right: 394px;
+    color: #0079AD;
+}
+
+.create-account{
+    padding: 4px 23px;
+    background-color: #0079AD;
+    border: 1px solid #0079AD;
+    color: white;
+    font-size: 15px;
+    border-radius: 42px;
+    height: 40px;
+    cursor: pointer;
+}
+
+.login-content{
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+    margin-left: 20px;
+}
+
+.wrapper {
+    display: inline-flex;
+    padding-left: x;
+  }
+  
+  .wrapper .icon {
+    position: relative;
+    border-radius: 50%;
+    padding: 5px;
+    margin: 1px;
+    width: 50px;
+    height: 50px;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    cursor: pointer;
+    transition: all 0.2s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  }
+  
+  .wrapper .tooltip {
+    position: absolute;
+    top: 0;
+    font-size: 14px;
+    background-color: #ffffff;
+    color: #ffffff;
+    padding: 5px 8px;
+    border-radius: 5px;
+    opacity: 0;
+    pointer-events: none;
+    transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  }
+  
+  .wrapper .tooltip::before {
+    position: absolute;
+    content: "";
+    height: 8px;
+    width: 8px;
+    background-color: #ffffff;
+    bottom: -3px;
+    left: 50%;
+    transform: translate(-50%) rotate(45deg);
+    transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  }
+  
+  .wrapper .icon:hover .tooltip {
+    top: -45px;
+    opacity: 1;
+    visibility: visible;
+    pointer-events: auto;
+  }
+  
+  .wrapper .twitter:hover,
+  .wrapper .twitter:hover .tooltip,
+  .wrapper .twitter:hover .tooltip::before {
+    background-color: #46c1f6;
+    color: #ffffff;
+  }
+  
+  .wrapper .instagram:hover,
+  .wrapper .instagram:hover .tooltip,
+  .wrapper .instagram:hover .tooltip::before {
+    background-color: #ee4b97;
+    color: #ffffff;
+  }
+  
+  .wrapper .github:hover,
+  .wrapper .github:hover .tooltip,
+  .wrapper .github:hover .tooltip::before {
+    background-color: #333333;
+    color: #ffffff;
+  }
+  
+  .wrapper .linkedin:hover,
+  .wrapper .linkedin:hover .tooltip,
+  .wrapper .linkedin:hover .tooltip::before {
+    background-color: #3b5999;
+    color: #ffffff;
+  }  
+
+
+
+
+
+
+
+
+
+
+
+
+ /* Rafa */
+
+  .info-cards{
+    display: flex;
+    justify-content: center;
+    background-color: #121212;
+    color: #fff;
+    font-family: 'JejuGothic';
+  }
+
+ .card {
+    border-radius: 30px;
+    padding: 20px;
+    margin: 3.5%;
+    width: 350px;
+    background-color: #1c1c1f;
+  }
+
+  .learn-more{
+    background-color: #121212;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+  }
+
+  .lm-image img {
+    max-width: 746px;
+    max-height: 569px;
+}
+    .lm-text{
+        margin: 0px 0px 0px 40px;
+
+    }
+
+    .lm-text h2{
+    font-size: 30px;
+    }
+
+    .lm-text p,a{
+
+    font-family: 'JejuGothic';
+    font-style: normal;
+    font-size: 23px;
+    line-height: 1.5;
+    color: #FFFFFF;
+    }
+
+    .lm-button{
+        margin: 80px 0px 0px 0px;
+    }
+
+
+
+  .footer{
+    background-color: #121212;
+  }
+  footer {
+    margin-bottom: 0;
+    background-color: #171718;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 130px;
+    border-radius: 30px;
+  }
+
+  .footer-box{
+    justify-content: center;
+    font-family: "JejuGothic";
+    font-size: larger;
+    width: 45%;
+    padding: 01%;
+    float: left;
+    color: #969696;
+    
+  }
+
+  .socials {
+    display: block;
+    justify-content: right;
+    float: right;
+  }
+
+
+
+
+/* Responsividade */
+@media (max-width: 768px) {
+    .nav-links {
+        display: none;
+    }
+    .icons img {
+        margin: 0;
+    }
+}
