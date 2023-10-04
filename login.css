@@ -1,0 +1,70 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    color: #fff;
+}
+
+.imagem, .formulario {
+    flex: 1;
+    text-align: left;
+    width: 50vw;
+}
+
+.imagem{
+    max-width: 40%;
+}
+.formulario{
+    max-width: 60%;
+}
+
+.imagem img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.imagem{
+    background-color: #1C1C1F;
+}
+
+.formulario{
+    background-color: #121212;
+    padding: 10px 0 0 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+input[type="button"],button{
+display: inline-block;
+color: #fff;
+min-width: 84px;
+height: 35px;
+border-radius: 20px;
+background: rgba(0, 121, 173, 0.79);
+text-align: center;
+justify-content: center;
+
+
+}
+
+.barra{
+    width: 70px;
+    height: 4px;
+    background: #10608E;
+
+};
+
+a,a:visited,a:hover{
+    color: #969696;
+}
+
+input[type="email"],input[type="password"]{
+    color: #fff;
+    width: 27%;
+    height: 30px;
+    font-size: 18px;
+    margin: 10px 0 0 0;
+    background: #292929;
+    border-radius: 10px;
+
+}
